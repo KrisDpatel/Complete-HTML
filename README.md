@@ -152,4 +152,29 @@ th stands for table header.</p>
 <p>The URL that the hyperlink points to.<br>Links are not restricted to HTTP-based URLs- they can use any URL scheme supported by browsres:<br><li>telephone numbers with tel: URLs</li><li>Email address with malito: URLs</li></p>
 
 <h2>Lesson 8 : Forms & Input tags</h2>
-<h2>Lesson 9 : Semamtic tags</h2>
+<p> An HTML form is used to collect user input.The user input is most often sent to a server for processing.</p>
+<h3>The HTML &lt;form> </h3> <p> it is used to create an HTML from for user input also form element is a container for differnet types of inputs.</p>
+<h3>Text Fileds</h3>
+<p>The &lt;input type="text"> defines a single-line input field for text input.</p>
+<h3>The &lt;label> Element</h3>
+<p>
+The &lt;label> tag defines a label for form elements.<br>
+
+The &lt;label> element is useful for screen-reader users, because the screen-reader will read out loud the label when the user focuses on the input element.<br>
+
+The &lt;label> element also helps users who have difficulty clicking on very small regions (such as radio buttons or checkboxes) - because when the user clicks the text within the &lt;label> element, it toggles the radio button/checkbox.<br>
+
+The for attribute of the &lt;label> tag should be equal to the id attribute of the <input> element to bind them together.</p>
+<p>reference : <a href="https://www.w3schools.com/html/html_forms.asp">HTML Forms</a></p>
+
+<h2>Lesson 9 : Semantic tags</h2>
+<h3>Most commonly used semantic tags</h3>
+<ul>
+<li>header</li>
+<li>main</li>
+<li>nav</li>
+<li>section</li>
+<li>article</li>
+<li>aside</li>
+<li>footer</li>
+</ul>
